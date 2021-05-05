@@ -15,8 +15,21 @@ body {
   font-size: 1.25rem;
 }
 
+h1 {
+  color: #888;
+}
+
 hr {
-  border: 1px dashed #9aa3ac;
+  border: 1px dashed #aaa;
+}
+
+.article-date {
+  color: #aaa;
+}
+
+.content {
+  max-width: 45rem;
+  width: 100%;
 }
 
 .viewport {
@@ -24,9 +37,4 @@ hr {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   justify-items: center;
-}
-
-.content {
-  max-width: 45rem;
-  width: 100%;
 }
